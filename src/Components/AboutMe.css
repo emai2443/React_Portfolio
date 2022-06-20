@@ -1,0 +1,30 @@
+.abTitle {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+}
+
+.schoolIcon {
+  display: flex;
+  flex: 1;
+}
+.collegeName {
+  padding-top: 2rem;
+  padding-left: 0.5rem;
+}
+
+.codeIcon {
+  display: flex;
+  flex: 2;
+}
+
+.scriptIcon {
+  padding-top: 1.7rem;
+  padding-left: 0.5rem;
+}
+
+.faREACT {
+  margin-bottom: 0.5rem;
+}
