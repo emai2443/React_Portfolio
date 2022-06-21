@@ -9,6 +9,7 @@
 .schoolIcon {
   display: flex;
   flex: 1;
+  margin-left: 1rem;
 }
 .collegeName {
   padding-top: 2rem;
@@ -23,8 +24,33 @@
 .scriptIcon {
   padding-top: 1.7rem;
   padding-left: 0.5rem;
+  margin-right: 1rem;
 }
 
 .faREACT {
   margin-bottom: 0.5rem;
+}
+
+.scroll2 {
+  background: #116c40;
+  transition: var(--transition);
+  float: right;
+  margin-right: 2rem;
+}
+.scroll2:hover {
+  transform: scale(1.5);
+}
+
+.iconButtonStyle {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.abMeDes {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 95%;
 }

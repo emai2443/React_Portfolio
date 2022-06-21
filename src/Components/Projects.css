@@ -1,0 +1,83 @@
+.titleName {
+  font-size: 250%;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.pjTitle {
+  font-size: 200%;
+  text-align: left;
+  height: 100%;
+  position: relative;
+  text-decoration: underline;
+}
+
+.pjLink {
+  font-size: 2rem;
+  background: #116c40;
+  color: white;
+  padding: 1rem 1rem 1rem 1rem;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+a:link {
+  color: White;
+}
+
+/* visited link */
+a:visited {
+  color: orange;
+}
+
+.pjImage {
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+}
+
+.pjDes {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.scroll3 {
+  background: #116c40;
+  transition: var(--transition);
+  float: right;
+  margin-right: 2rem;
+}
+.scroll3:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 1024px) {
+  .pjTitle {
+    font-size: 200%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    text-decoration: underline;
+  }
+  .pjLink {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pjImage {
+    object-fit: cover;
+    width: 95%;
+    height: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+  }
+}

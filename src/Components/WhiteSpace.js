@@ -2,7 +2,27 @@ import React from "react";
 
 const WhiteSpace = () => {
   return (
-    <div>
+    <div id="whitespace">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />
