@@ -27,3 +27,15 @@
 .styler {
   background: #d0b49f;
 }
+
+@media screen and (max-width: 1024px) {
+  .content {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    font-size: 1rem;
+  }
+}

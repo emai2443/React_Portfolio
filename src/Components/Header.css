@@ -68,6 +68,9 @@ header {
   header {
     height: 68vh;
   }
+  .headerContent {
+    margin-left: 3rem;
+  }
   .self {
     width: 7rem;
     height: 10rem;
