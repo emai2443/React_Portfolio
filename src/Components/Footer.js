@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-scroll";
-import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import "./Footer.css";
 import { Button } from "@mui/material";
 
