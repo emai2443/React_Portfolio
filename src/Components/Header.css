@@ -13,6 +13,10 @@ header {
   position: relative;
 }
 
+.text-light {
+  font-size: 1rem;
+}
+
 .greet {
   font-size: 250%;
   transition: var(--transition);
@@ -25,7 +29,7 @@ header {
 .myName {
   font-size: 400%;
   transition: var(--transition);
-  color: #5b9cad;
+  color: var(--color-primary-varient);
   font-weight: bold;
 }
 .myName:hover {

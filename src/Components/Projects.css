@@ -3,6 +3,7 @@
   text-align: center;
   height: 100%;
   position: relative;
+  padding-top: 8rem;
 }
 
 .pjTitle {
@@ -11,18 +12,7 @@
   height: 100%;
   position: relative;
   text-decoration: underline;
-}
-
-.pjLink {
-  font-size: 2rem;
-  background: #116c40;
-  color: white;
-  padding: 1rem 1rem 1rem 1rem;
-  align-items: center;
-  width: 20%;
-  text-align: center;
-  margin-left: 1rem;
-  margin-top: 2rem;
+  padding-top: 4rem;
 }
 
 a:link {
@@ -31,7 +21,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: orange;
+  color: rgb(0, 0, 0);
 }
 
 .pjImage {
@@ -46,6 +36,7 @@ a:visited {
 .pjDes {
   margin-left: 1rem;
   margin-right: 1rem;
+  font-size: 1.5rem;
 }
 
 .scroll3 {
@@ -79,5 +70,8 @@ a:visited {
     margin-left: auto;
     margin-right: auto;
     padding-top: 0;
+  }
+  .pjDes {
+    font-size: 1rem;
   }
 }

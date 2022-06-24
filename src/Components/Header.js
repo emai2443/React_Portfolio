@@ -1,8 +1,8 @@
 import React from "react";
 import SELF from "../among_us.png";
 import "./Header.css";
-import { Link, animateScroll as scroll } from "react-scroll";
-import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+import { Link } from "react-scroll";
+import Button from "@mui/material/Button";
 
 const Header = () => {
   return (
@@ -17,9 +17,12 @@ const Header = () => {
             <img src={SELF} alt="me" />
           </div>
         </div>
+
         <div className="scrollButton">
           <Link to="about" smooth={true} className="scroll1" duration={1}>
-            <ArrowDownwardIcon style={{ fontSize: 50 }}></ArrowDownwardIcon>
+            <Button variant="contained" style={{ backgroundColor: "#523A28" }}>
+              Next
+            </Button>
           </Link>
         </div>
       </div>
