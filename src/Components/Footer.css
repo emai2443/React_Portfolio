@@ -1,8 +1,4 @@
-.footer {
-  background: #2d621d;
-}
 .scroll3 {
-  background: #092ea8;
   transition: var(--transition);
   float: right;
   margin-right: 2rem;

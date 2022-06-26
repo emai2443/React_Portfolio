@@ -1,11 +1,11 @@
 #contacts {
-  background: #d0b49f;
+  background: var(--color-secondary);
 }
 
 .timing {
   text-align: center;
-  color: black;
+  color: white;
 }
 ul {
-  color: black;
+  color: white;
 }

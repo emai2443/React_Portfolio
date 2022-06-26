@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <Link to="titleStart" className="scroll3">
-        <Button variant="contained" style={{ backgroundColor: "#523A28" }}>
+        <Button variant="contained" style={{ backgroundColor: "#283d9d" }}>
           Top
         </Button>
       </Link>

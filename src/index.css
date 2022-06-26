@@ -10,10 +10,11 @@
 }
 
 :root {
-  --color-bg: #a47551;
-  --color-primary: #e4d4c8;
-  --color-primary-varient: #523a28;
-  --color-secondary: #a47551;
+  --color-bg: #5763ac;
+  --color-primary: #283d9d;
+  --color-primary-variant: #d4dceb;
+  --color-secondary: #8c9ccb;
+  --color-third: #bccce4;
 
   --container-width-lg: 75%;
   --container-width-md: 85%;
@@ -33,7 +34,7 @@ html {
 body {
   font-family: "Mukta", sans-serif;
   background: var(--color-bg);
-  color: var(--color-primary-varient);
+  color: var(--color-primary-variant);
   line-height: 1.7;
 }
 
@@ -55,7 +56,7 @@ section > h2 {
   color: var(--color-primary);
 }
 section > h5 {
-  color: var(--color-primary-varient);
+  color: var(--color-primary-variant);
 }
 
 .text-light {

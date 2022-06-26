@@ -1,9 +1,17 @@
 .navBar {
   position: sticky;
-  background: #d0b49f;
+  background: var(--color-secondary);
   padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   top: 0;
   z-index: 5;
+  border-radius: 25px;
+  transition: var(--transition);
+}
+
+.navBar:hover {
+  background: linear-gradient(var(--color-third), var(--color-secondary));
 }
 
 .content {
@@ -13,7 +21,7 @@
   text-align: center;
   justify-content: space-between;
   align-items: center;
-  color: black;
+  color: var(--color-primary-variant);
   font-family: "Mukta", sans-serif;
   font-weight: 1000;
   transition: var(--transition);

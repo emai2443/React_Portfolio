@@ -1,6 +1,12 @@
 .abTitle {
   text-align: center;
   padding-top: 8rem;
+  font-size: 300%;
+  transition: var(--transition);
+}
+
+.abTitle:hover {
+  transform: scale(1.5);
 }
 
 .icons {
@@ -10,7 +16,8 @@
 .schoolIcon {
   display: flex;
   flex: 1;
-  margin-left: 1rem;
+  margin-left: 2rem;
+  color: var(--color-third);
 }
 .collegeName {
   padding-top: 2rem;
@@ -20,12 +27,15 @@
 .codeIcon {
   display: flex;
   flex: 2;
+  color: var(--color-third);
+  margin-right: 2rem;
 }
 
 .scriptIcon {
   padding-top: 1.7rem;
   padding-left: 0.5rem;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
+  color: var(--color-third);
 }
 
 .faREACT {
@@ -33,7 +43,6 @@
 }
 
 .scroll2 {
-  background: #116c40;
   transition: var(--transition);
   float: right;
   margin-right: 2rem;
@@ -54,4 +63,5 @@
   margin-right: auto;
   width: 95%;
   height: 95%;
+  color: var(--color-third);
 }

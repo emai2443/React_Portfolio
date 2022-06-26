@@ -1,9 +1,10 @@
 .titleName {
-  font-size: 250%;
+  font-size: 300%;
   text-align: center;
   height: 100%;
   position: relative;
   padding-top: 8rem;
+  color: var(--color-primary);
 }
 
 .pjTitle {
@@ -12,7 +13,9 @@
   height: 100%;
   position: relative;
   text-decoration: underline;
-  padding-top: 4rem;
+  padding-top: 5rem;
+  margin-left: 2rem;
+  font-weight: 500;
 }
 
 a:link {
@@ -31,12 +34,15 @@ a:visited {
   margin-left: auto;
   margin-right: auto;
   padding-top: 0;
+  padding-bottom: 0;
+  border: 10px solid var(--color-third);
 }
 
 .pjDes {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   font-size: 1.5rem;
+  padding-top: 5rem;
 }
 
 .scroll3 {

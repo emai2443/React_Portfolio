@@ -8,14 +8,14 @@ const Contact = () => {
   return (
     <div id="contacts">
       <div className="iconButtonStyle">
-        <IconButton style={{ fontSize: 50, backgroundColor: "#A47551" }}>
+        <IconButton style={{ fontSize: 50, backgroundColor: "#5763ac" }}>
           <FaLinkedin
             onClick={() =>
               window.open("https://www.linkedin.com/in/eric-mai-57274b228/")
             }
           ></FaLinkedin>
         </IconButton>
-        <IconButton style={{ fontSize: 50, backgroundColor: "#A47551" }}>
+        <IconButton style={{ fontSize: 50, backgroundColor: "#5763ac" }}>
           <FaGithub
             onClick={() =>
               window.open("https://github.com/emai2443?tab=repositories")

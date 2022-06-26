@@ -20,7 +20,7 @@ const Header = () => {
 
         <div className="scrollButton">
           <Link to="about" smooth={true} className="scroll1" duration={1}>
-            <Button variant="contained" style={{ backgroundColor: "#523A28" }}>
+            <Button variant="contained" style={{ backgroundColor: "#283d9d" }}>
               Next
             </Button>
           </Link>

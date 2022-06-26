@@ -36,25 +36,21 @@ const AboutMe = () => {
       <br />
       <br />
       <h2 className="abMeDes">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus,
-        diam nec aliquet blandit, libero sapien interdum leo, ut dictum enim
-        justo quis purus. Donec porta, orci eget auctor ornare, ligula massa
-        dictum est, ac malesuada eros tortor vel orci. Cras eu maximus mauris.
-        Sed venenatis ultricies arcu vel maximus. Nam ligula ipsum, ullamcorper
-        et velit et, fringilla semper purus. Mauris dapibus, lorem in mollis
-        mollis, tortor sem vulputate massa, et pulvinar neque dui vel augue.
-        Curabitur varius massa ut arcu tempus vestibulum. Nam eu dui tellus.
-        Aliquam id nunc sed nunc bibendum faucibus vel non tortor. Cras maximus
-        commodo auctor. Vivamus at condimentum mauris.
+        Hi I am Eric Mai, a recent Hunter College graduate with a BA in Computer
+        Science. I enjoy learning new talents and honing them to the best of my
+        ability. I am eagered to find a challenging and prosperous job in Web
+        Development, for I am a Frontend Developer. I have studied Frontend
+        Development for 4+ years and my current Tech Stack is React, JavaScript,
+        HTML and CSS.
       </h2>
       <div>
         <Link to="projects" className="scroll2">
-          <Button variant="contained" style={{ backgroundColor: "#523A28" }}>
+          <Button variant="contained" style={{ backgroundColor: "#283d9d" }}>
             Next
           </Button>
         </Link>
         <Link to="titleStart" className="scroll2">
-          <Button variant="contained" style={{ backgroundColor: "#523A28" }}>
+          <Button variant="contained" style={{ backgroundColor: "#283d9d" }}>
             Prev
           </Button>
         </Link>

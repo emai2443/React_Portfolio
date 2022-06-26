@@ -14,10 +14,12 @@ header {
 }
 
 .text-light {
+  color: white;
   font-size: 1rem;
 }
 
 .greet {
+  color: var(--color-third);
   font-size: 250%;
   transition: var(--transition);
 }
@@ -27,9 +29,9 @@ header {
 }
 
 .myName {
-  font-size: 400%;
+  font-size: 500%;
   transition: var(--transition);
-  color: var(--color-primary-varient);
+  color: var(--color-primary);
   font-weight: bold;
 }
 .myName:hover {
@@ -44,7 +46,6 @@ header {
 }
 
 .scroll1 {
-  background: #116c40;
   transition: var(--transition);
   float: right;
   margin-right: 2rem;
