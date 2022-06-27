@@ -43,7 +43,7 @@ const AboutMe = () => {
       <h2 className="abMeDes">
         Hi I am Eric Mai, a recent Hunter College graduate with a BA in Computer
         Science. I enjoy learning new talents and honing them to the best of my
-        ability. I am eagered to find a challenging and prosperous job in Web
+        ability. I am eager to find a challenging and prosperous job in Web
         Development, for I am a Frontend Developer. I have studied Frontend
         Development for 4+ years and my current Tech Stack is React, JavaScript,
         HTML and CSS.
