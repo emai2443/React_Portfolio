@@ -2,9 +2,18 @@
   font-size: 300%;
   text-align: center;
   height: 100%;
-  position: relative;
-  padding-top: 8rem;
   color: var(--color-primary);
+  margin-left: 0;
+}
+
+.projectTitle {
+  padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fileCodeIcon {
+  margin-top: 0.5rem;
 }
 
 .pjTitle {
@@ -12,10 +21,9 @@
   text-align: left;
   height: 100%;
   position: relative;
-  text-decoration: underline;
   padding-top: 5rem;
-  margin-left: 2rem;
-  font-weight: 500;
+  margin-left: 3rem;
+  font-weight: bold;
 }
 
 a:link {
@@ -39,10 +47,11 @@ a:visited {
 }
 
 .pjDes {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   font-size: 1.5rem;
   padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 
 .scroll3 {

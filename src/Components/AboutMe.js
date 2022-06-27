@@ -8,11 +8,16 @@ import { FaReact } from "react-icons/fa";
 import "./AboutMe.css";
 import { Link } from "react-scroll";
 import Button from "@mui/material/Button";
+import { FaUser } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
     <div id="about">
-      <h1 className="abTitle">About Me</h1>
+      <div className="abMeIcon">
+        <FaUser className="userIcon" size="3em" />
+        <h1 className="abTitle">About Me</h1>
+      </div>
+
       <br />
       <div className="icons">
         <div className="schoolIcon">

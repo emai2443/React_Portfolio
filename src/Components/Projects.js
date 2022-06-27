@@ -6,19 +6,24 @@ import ROBO from "../robofriends.png";
 import { Link } from "react-scroll";
 import WhiteSpace from "./WhiteSpace";
 import { Button } from "@mui/material";
+import { FaFileCode } from "react-icons/fa";
 
 const Projects = () => {
   return (
     <div id="projects">
       <div id="project1">
-        <h5 className="titleName">Projects</h5>
-        <div className="pjTitle">MOVIE BUDDY</div>
+        <div className="projectTitle">
+          <FaFileCode className="fileCodeIcon" size="3em" />
+          <h5 className="titleName">Projects</h5>
+        </div>
+
+        <h5 className="pjTitle">Movie Buddy</h5>
         <img className="pjImage" src={MVB} alt="moviebuddy" />
         <h2 className="pjDes">
           Movie Buddy is my capstone project that I worked on in Hunter.
-          Simulating an Agile work enviorment, me and my team used React, HTML,
+          Simulating an Agile work enviorment, my team and I used React, HTML,
           CSS to create a flexible movie application. The project features a
-          Landing page where users can register and/or log-in using their E-mail
+          landing page where users can register and/or log-in using their E-mail
           address and password. Once logged in the user will have access to 3
           categories of movies, Popular, Now Playing and Top-Rated. The user can
           navigate to our Filter page, with over 10 filters to find the perfect
@@ -96,10 +101,9 @@ const Projects = () => {
         <img className="pjImage" src={ROBO} alt="RoboFriends" />
         <h2 className="pjDes">
           This project was built using React, JavaScript, HTML and CSS. The
-          project is created whilst I was learning API calls. The user can make
-          a search and while doing so the project will make an API call to
-          retireve a unique robot that fits that name. This project also touches
-          upon on more CSS styling as well as Class based Functional React.
+          project was created while I was learning API calls. The user can make
+          a search and the project will make an API call to retrieve a unique
+          robot and give it a random image. This project also utilizes Tachyons.
         </h2>
         <div>
           <Link to="contacts" className="scroll2">

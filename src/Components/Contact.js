@@ -8,7 +8,13 @@ const Contact = () => {
   return (
     <div id="contacts">
       <div className="iconButtonStyle">
-        <IconButton style={{ fontSize: 50, backgroundColor: "#5763ac" }}>
+        <IconButton
+          style={{
+            fontSize: 50,
+            backgroundColor: "#5763ac",
+            marginRight: "1rem",
+          }}
+        >
           <FaLinkedin
             onClick={() =>
               window.open("https://www.linkedin.com/in/eric-mai-57274b228/")
@@ -23,14 +29,10 @@ const Contact = () => {
           ></FaGithub>
         </IconButton>
         <h2 className="timing">Email: ericmai10314@gmail.com</h2>
-        <h5>
-          <ul>Monday: 10am - 11pm</ul>
-          <ul>Tuesday: 10am - 11pm</ul>
-          <ul>Wednesday: 10am - 11pm</ul>
-          <ul>Thrusday: 10am - 11pm</ul>
-          <ul>Friday: 10am - 11pm</ul>
-          <ul>Saturday: 11am - 9pm</ul>
-          <ul>Sunday: 11am - 9pm</ul>
+        <h5 className="timing2">
+          <ul>Monday - Friday: 10am - 11pm</ul>
+
+          <ul>Saturday - Sunday: 11am - 9pm</ul>
         </h5>
       </div>
     </div>

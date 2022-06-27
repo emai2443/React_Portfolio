@@ -14,8 +14,8 @@ header {
 }
 
 .text-light {
-  color: white;
-  font-size: 1rem;
+  color: var(--color-third);
+  font-size: 2rem;
 }
 
 .greet {

@@ -1,12 +1,16 @@
 .abTitle {
   text-align: center;
-  padding-top: 8rem;
   font-size: 300%;
-  transition: var(--transition);
 }
 
-.abTitle:hover {
-  transform: scale(1.5);
+.abMeIcon {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+.userIcon {
+  margin-top: 0.5rem;
 }
 
 .icons {
@@ -16,7 +20,7 @@
 .schoolIcon {
   display: flex;
   flex: 1;
-  margin-left: 2rem;
+  margin-left: 3rem;
   color: var(--color-third);
 }
 .collegeName {
@@ -28,13 +32,11 @@
   display: flex;
   flex: 2;
   color: var(--color-third);
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 .scriptIcon {
   padding-top: 1.7rem;
-  padding-left: 0.5rem;
-  margin-right: 1.5rem;
   color: var(--color-third);
 }
 
@@ -59,9 +61,19 @@
 }
 
 .abMeDes {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
   width: 95%;
   height: 95%;
   color: var(--color-third);
+}
+
+@media screen and (max-width: 700px) {
+  .abMeIcon {
+    font-size: 0.8rem;
+  }
+
+  .collegeName {
+    font-size: 0.8rem;
+  }
 }
