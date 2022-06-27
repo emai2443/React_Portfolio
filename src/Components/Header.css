@@ -73,18 +73,6 @@ img {
 }
 
 @media screen and (max-width: 1024px) {
-  /* header {
-    height: 68vh;
-  }
-  .headerContent {
-    margin-left: 3rem;
-  }
-  .self {
-    width: 7rem;
-    height: 10rem;
-
-    align-items: center;
-  } */
   .headerContent {
     align-items: center;
     margin-left: auto;
