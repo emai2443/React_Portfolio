@@ -7,6 +7,13 @@ header {
   overflow: hidden;
 }
 
+img {
+  background: linear-gradient(var(--color-third), var(--color-secondary));
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 .headerContent {
   text-align: center;
   height: 100%;
@@ -66,7 +73,7 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-  header {
+  /* header {
     height: 68vh;
   }
   .headerContent {
@@ -77,6 +84,11 @@ header {
     height: 10rem;
 
     align-items: center;
+  } */
+  .headerContent {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
