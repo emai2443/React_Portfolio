@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.c11a1f67.css",
-    "main.js": "/React_Portfolio/static/js/main.a4242b3b.js",
+    "main.js": "/React_Portfolio/static/js/main.c10d9c90.js",
     "static/js/787.a2cb61a6.chunk.js": "/React_Portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/among_us.png": "/React_Portfolio/static/media/among_us.cdec2ba299dc13992729.png",
     "static/media/MovieBuddy.png": "/React_Portfolio/static/media/MovieBuddy.306af67f0445cee62d97.png",
+    "static/media/Self.png": "/React_Portfolio/static/media/Self.aa3ec4873a850ec17395.png",
     "static/media/robofriends.png": "/React_Portfolio/static/media/robofriends.4e77d2f6d991207d234a.png",
     "static/media/grid.png": "/React_Portfolio/static/media/grid.562ea38461aac0915dc5.png",
     "index.html": "/React_Portfolio/index.html",
     "main.c11a1f67.css.map": "/React_Portfolio/static/css/main.c11a1f67.css.map",
-    "main.a4242b3b.js.map": "/React_Portfolio/static/js/main.a4242b3b.js.map",
+    "main.c10d9c90.js.map": "/React_Portfolio/static/js/main.c10d9c90.js.map",
     "787.a2cb61a6.chunk.js.map": "/React_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c11a1f67.css",
-    "static/js/main.a4242b3b.js"
+    "static/js/main.c10d9c90.js"
   ]
 }
