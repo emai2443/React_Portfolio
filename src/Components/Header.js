@@ -1,5 +1,5 @@
 import React from "react";
-import SELF from "../among_us.png";
+import SELF from "../Self.png";
 import "./Header.css";
 import { Link } from "react-scroll";
 import Button from "@mui/material/Button";
